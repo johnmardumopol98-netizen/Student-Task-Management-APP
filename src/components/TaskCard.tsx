@@ -22,14 +22,61 @@ export default function TaskCard({ task, onPress, onToggle }: { task: Task; onPr
 }
 
 const styles = StyleSheet.create({
-  card: { flexDirection: 'row', alignItems: 'center', padding: 14, marginBottom: 10, backgroundColor: '#fff', borderRadius: 16, borderWidth: 1, borderColor: '#e2e8f0', shadowOpacity: 0.04, shadowRadius: 5, elevation: 1 },
-  check: { marginRight: 10 },
-  body: { flex: 1 },
-  title: { fontSize: 16, fontWeight: '700', color: '#0f172a' },
-  done: { textDecorationLine: 'line-through', color: '#64748b' },
-  subject: { marginTop: 3, color: '#2563eb', fontSize: 13 },
-  date: { marginTop: 4, color: '#64748b', fontSize: 12 },
-  badge: { paddingHorizontal: 9, paddingVertical: 5, borderRadius: 10 },
-  high: { backgroundColor: '#fee2e2' }, medium: { backgroundColor: '#fef3c7' }, low: { backgroundColor: '#dcfce7' },
-  badgeText: { fontSize: 11, fontWeight: '700', color: '#334155' },
+  card: { 
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    padding: 14, 
+    marginBottom: 10, 
+    backgroundColor: '#fff', 
+    borderRadius: 16, 
+    borderWidth: 1, 
+    borderColor: '#e2e8f0', 
+    shadowOpacity: 0.04, 
+    shadowRadius: 5, 
+    elevation: 1 
+  },
+  check: {
+    marginRight: 10 
+  },
+  body: { 
+    flex: 1 
+  },
+  title: { 
+    fontSize: 16, 
+    fontWeight: '700', 
+    color: '#0f172a' 
+  },
+  done: { 
+    textDecorationLine: 'line-through', 
+    color: '#64748b' 
+  },
+  subject: { 
+    marginTop: 3, 
+    color: '#2563eb', 
+    fontSize: 13 
+  },
+  date: { 
+    marginTop: 4, 
+    color: '#64748b', 
+    fontSize: 12 
+  },
+  badge: { 
+    paddingHorizontal: 9, 
+    paddingVertical: 5, 
+    borderRadius: 10 
+  },
+  high: { 
+    backgroundColor: '#fee2e2' 
+  }, 
+  medium: { 
+    backgroundColor: '#fef3c7'
+  }, 
+  low: { 
+    backgroundColor: '#dcfce7'
+  },
+  badgeText: { 
+    fontSize: 11, 
+    fontWeight: '700', 
+    color: '#334155' 
+  },
 });
