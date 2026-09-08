@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Student Task Manager",
+    "slug": "student-task-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "studenttaskmanager",
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "android": {
+      "package": "com.example.studenttaskmanager"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.studenttaskmanager"
+    }
+  }
+}
